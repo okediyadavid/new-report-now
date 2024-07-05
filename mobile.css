@@ -9,7 +9,7 @@
     #banner {
         flex-direction: row;
         text-align: center;
-        width: 159%;
+        width: 100%;
     }
     .left .request-demo{
         width: 50%;
