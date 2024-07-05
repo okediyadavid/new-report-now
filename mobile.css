@@ -45,15 +45,6 @@
     }
 
 }
-@media (max-width: 2700px) {
-    .left .request-demo{
-        width: 50%;
-        height: 50px;
-        left: 20%;
-    }
-
-    
-}
 
 @media (max-width: 1000px) {
     .left .request-demo{
