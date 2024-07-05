@@ -1,0 +1,29 @@
+#fire-nation{
+  padding-left: 60px;
+}
+
+.nation{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#fire-nation p{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    justify-content: left;
+    text-align: left;
+
+}
+
+#fire-nation h5{
+    text-align: left;
+    justify-content: left;
+}
+
+.miss{
+align-items: center;
+text-align: center;
+    justify-content: center;
+}

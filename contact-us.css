@@ -1,0 +1,445 @@
+
+#the-contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#the-contact h3 {
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#the-contact h3 .highlight {
+    color: red;
+}
+
+#the-contact p {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    width: 416px;
+    height: 46px;
+}
+
+.contact-box {
+    border-radius: 15px;
+    opacity: 1;
+    background-color: #D40000;
+    padding: 20px;
+    color: white;
+    width: fit-content;
+}
+
+.contact-box a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 1250px) {
+    #the-contact h3 {
+        font-size: 48px;
+    }
+
+    #the-contact p {
+        font-size: 24px;
+        width: 416px;
+        height: 89px;
+    }
+}
+
+@media (max-width: 1170px) {
+    #the-contact h3 {
+        font-size: 42px;
+    }
+
+    #the-contact p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #the-contact h3 {
+        font-size: 38px;
+    }
+
+    #the-contact p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    #the-contact h3 {
+        font-size: 34px;
+    }
+
+    #the-contact p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+    #the-contact h3 {
+        font-size: 30px;
+    }
+
+    #the-contact p {
+        font-size: 16px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    #the-contact h3 {
+        font-size: 26px;
+    }
+
+    #the-contact p {
+        font-size: 14px;
+        width: 85%;
+    }
+}
+
+@media (max-width: 500px) {
+    #the-contact h3 {
+        font-size: 22px;
+    }
+
+    #the-contact p {
+        font-size: 12px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 330px) {
+    #the-contact h3 {
+        font-size: 18px;
+    }
+
+    #the-contact p {
+        font-size: 10px;
+        width: 75%;
+    }
+}
+
+/* Rectangle 247 - Blue */
+/* Rectangle 247 - Blue */
+.rectangle-blue {
+    position: relative;
+    width: 65.11px;
+    height: 201.32px;
+    left: 63rem;
+    top: -23rem;
+    background: #00A0FF;
+    border-radius: 180px;
+    transform: rotate(90.73deg);
+    animation: moveBlue 5s infinite alternate;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Rectangle 247 - Yellow */
+.rectangle-yellow {
+    position: relative;
+    width: 110.99px;
+    height: 120.55px;
+    left: 55rem;
+    top: -25rem;
+    background: #FFE000;
+    border-radius: 40px;
+    animation: moveYellow 5s infinite alternate;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Ellipse 31 - Red */
+.ellipse-red {
+    position: relative;
+    width: 34.19px;
+    height: 34.19px;
+    left: 67rem;
+    top: -31rem;
+    background: #FE0000;
+    border-radius: 50%;
+    animation: moveRed 5s infinite alternate;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Rectangle 247 - Light Red */
+.rectangle-light-red {
+    position: relative;
+    width: 87.19px;
+    height: 222.02px;
+    left: 65rem;
+    top: -29rem;
+    background: #FD7568;
+    border-radius: 180px;
+    animation: moveLightRed 5s infinite alternate;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Rectangle 247 - Dark Red */
+.rectangle-dark-red {
+    position: relative;
+    width: 100.97px;
+    height: 102.24px;
+    left: 53rem;
+    top: -39rem;
+    background: #D40000;
+    border-radius: 150px;
+    animation: moveDarkRed 5s infinite alternate;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Keyframes for animations */
+@keyframes moveBlue {
+    to {
+        transform: translateY(20px) rotate(90.73deg);
+    }
+}
+
+@keyframes moveYellow {
+    to {
+        transform: translateX(-20px);
+    }
+}
+
+@keyframes moveRed {
+    to {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes moveLightRed {
+    to {
+        transform: translateX(20px);
+    }
+}
+
+@keyframes moveDarkRed {
+    to {
+        transform: translateY(20px);
+    }
+}
+
+
+
+/* Responsiveness */
+
+@media (min-width: 1250px) {
+    /* No changes needed for large screens */
+}
+
+/* Adjust for medium-large screens */
+@media (max-width: 1170px) {
+    .rectangle-blue {
+        left: 55rem;
+        top: -20rem;
+    }
+    .rectangle-yellow {
+        left: 45rem;
+        top: -22rem;
+    }
+    .ellipse-red {
+        left: 58rem;
+        top: -28rem;
+    }
+    .rectangle-light-red {
+        left: 56rem;
+        top: -25rem;
+    }
+    .rectangle-dark-red {
+        left: 46rem;
+        top: -35rem;
+    }
+}
+
+/* Adjust for medium screens */
+@media (max-width: 1000px) {
+    .rectangle-blue {
+        left: 50rem;
+        top: -18rem;
+    }
+    .rectangle-yellow {
+        left: 40rem;
+        top: -20rem;
+    }
+    .ellipse-red {
+        left: 50rem;
+        top: -25rem;
+    }
+    .rectangle-light-red {
+        left: 50rem;
+        top: -22rem;
+    }
+    .rectangle-dark-red {
+        left: 40rem;
+        top: -30rem;
+    }
+}
+
+/* Adjust for small-medium screens */
+@media (max-width: 950px) {
+    .rectangle-blue {
+        left: 45rem;
+        top: -16rem;
+    }
+    .rectangle-yellow {
+        left: 35rem;
+        top: -18rem;
+    }
+    .ellipse-red {
+        left: 45rem;
+        top: -23rem;
+    }
+    .rectangle-light-red {
+        left: 45rem;
+        top: -20rem;
+    }
+    .rectangle-dark-red {
+        left: 35rem;
+        top: -28rem;
+    }
+}
+
+/* Adjust for small screens */
+@media (max-width: 700px) {
+    .rectangle-blue {
+        left: 40rem;
+        top: -14rem;
+    }
+    .rectangle-yellow {
+        left: 30rem;
+        top: -16rem;
+    }
+    .ellipse-red {
+        left: 40rem;
+        top: -21rem;
+    }
+    .rectangle-light-red {
+        left: 40rem;
+        top: -18rem;
+    }
+    .rectangle-dark-red {
+        left: 30rem;
+        top: -26rem;
+    }
+}
+
+/* Adjust for very small screens */
+@media (max-width: 600px) {
+    .rectangle-blue {
+        left: 35rem;
+        top: -12rem;
+    }
+    .rectangle-yellow {
+        left: 25rem;
+        top: -14rem;
+    }
+    .ellipse-red {
+        left: 35rem;
+        top: -19rem;
+    }
+    .rectangle-light-red {
+        left: 35rem;
+        top: -16rem;
+    }
+    .rectangle-dark-red {
+        left: 25rem;
+        top: -24rem;
+    }
+}
+
+/* Adjust for extra small screens */
+@media (max-width: 500px) {
+    .rectangle-blue {
+        left: 30rem;
+        top: -10rem;
+    }
+    .rectangle-yellow {
+        left: 20rem;
+        top: -12rem;
+    }
+    .ellipse-red {
+        left: 30rem;
+        top: -17rem;
+    }
+    .rectangle-light-red {
+        left: 30rem;
+        top: -14rem;
+    }
+    .rectangle-dark-red {
+        left: 20rem;
+        top: -22rem;
+    }
+}
+
+/* Adjust for tiny screens */
+@media (max-width: 330px) {
+    .rectangle-blue {
+        left: 25rem;
+        top: -8rem;
+    }
+    .rectangle-yellow {
+        left: 15rem;
+        top: -10rem;
+    }
+    .ellipse-red {
+        left: 25rem;
+        top: -15rem;
+    }
+    .rectangle-light-red {
+        left: 25rem;
+        top: -12rem;
+    }
+    .rectangle-dark-red {
+        left: 15rem;
+        top: -20rem;
+    }
+}
+
+
+.ellipse-red-1 {
+    position: relative;
+    width: 34.19px;
+    height: 34.19px;
+    left: 320px;
+    top: 244px;
+    background: #FE0000;
+    border-radius: 50%;
+    animation: moveEllipseRed 5s infinite alternate;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Rectangle 248 - Light Red */
+.rectangle-light-red-1 {
+    position: relative;
+    width: 99.19px;
+    height: 222.02px;
+    left: 132px;
+    top: 100px;
+    background: #FD7568;
+    border-radius: 180px;
+    animation: moveRectangleLightRed 5s infinite alternate;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Keyframes for animations */
+@keyframes moveEllipseRed {
+    to {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes moveRectangleLightRed {
+    to {
+        transform: translateX(20px);
+    }
+}
